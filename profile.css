@@ -1,0 +1,185 @@
+/* profile.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    height: 67px;
+}
+
+.logo img {
+    height: 67px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    background-color: #333;
+    color: white;
+}
+
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-list li {
+    margin-right: 20px;
+}
+
+.search-bar {
+    margin-left: auto;
+}
+
+.profile-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Additional styles for the profile page */
+
+#user-profile {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+#user-profile h1 {
+    color: #333;
+}
+
+#user-profile form {
+    margin-top: 20px;
+}
+
+#user-profile form label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+#user-profile form input,
+#user-profile form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+}
+
+#user-profile form button{
+    background-color: #333;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#user-profile form button:hover {
+    background-color: #555;
+}
+
+.edit-btn{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    height: 35px;
+    margin-top: 10px;
+    color: #fff;
+    border-radius: 5px;
+    width: 68px;
+    justify-content: center;
+}
+
+#create-post-section {
+    width: 60%;
+    float: left;
+    padding-right: 20px;
+}
+
+#all-post-section {
+    width: 40%;
+    float: left;
+}
+
+.post-item {
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.post-item h2 {
+    color: #333;
+}
+
+.post-item p {
+    color: #666;
+}
+
+.post-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.edit-btn:hover,
+.delete-btn:hover {
+    background-color: #555;
+}
+
+
+
+
+
+#user-profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#create-post-section,
+#all-post-section {
+    width: 48%;
+}
+
+#create-post-section {
+    margin-right: 2%;
+}
+
+.post-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.post-actions {
+    margin-top: 10px;
+    display: flex;
+    align-items: end;
+}
+
+.delete-btn {
+    background-color: #ff3333;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px; /* Set a minimum height to prevent the textarea from collapsing completely */
+}
